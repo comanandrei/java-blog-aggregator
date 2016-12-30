@@ -2,9 +2,9 @@
 	<entity>
 		<entity-name>ru.andrei.ro.entity.User</entity-name>
 		<entity-width>120</entity-width>
-		<entity-height>186</entity-height>
-		<entity-X-Coordinate>540</entity-X-Coordinate>
-		<entity-Y-Coordinate>220</entity-Y-Coordinate>
+		<entity-height>206</entity-height>
+		<entity-X-Coordinate>549</entity-X-Coordinate>
+		<entity-Y-Coordinate>244</entity-Y-Coordinate>
 		<primary-collapsed>false</primary-collapsed>
 		<relation-collapsed>false</relation-collapsed>
 		<basic-collapsed>false</basic-collapsed>
@@ -13,9 +13,9 @@
 	<entity>
 		<entity-name>ru.andrei.ro.entity.Blog</entity-name>
 		<entity-width>120</entity-width>
-		<entity-height>128</entity-height>
-		<entity-X-Coordinate>370</entity-X-Coordinate>
-		<entity-Y-Coordinate>83</entity-Y-Coordinate>
+		<entity-height>186</entity-height>
+		<entity-X-Coordinate>366</entity-X-Coordinate>
+		<entity-Y-Coordinate>40</entity-Y-Coordinate>
 		<primary-collapsed>false</primary-collapsed>
 		<relation-collapsed>false</relation-collapsed>
 		<basic-collapsed>false</basic-collapsed>
@@ -24,7 +24,7 @@
 	<entity>
 		<entity-name>ru.andrei.ro.entity.Item</entity-name>
 		<entity-width>120</entity-width>
-		<entity-height>168</entity-height>
+		<entity-height>206</entity-height>
 		<entity-X-Coordinate>90</entity-X-Coordinate>
 		<entity-Y-Coordinate>50</entity-Y-Coordinate>
 		<primary-collapsed>false</primary-collapsed>
@@ -36,8 +36,8 @@
 		<entity-name>ru.andrei.ro.entity.Role</entity-name>
 		<entity-width>120</entity-width>
 		<entity-height>146</entity-height>
-		<entity-X-Coordinate>720</entity-X-Coordinate>
-		<entity-Y-Coordinate>112</entity-Y-Coordinate>
+		<entity-X-Coordinate>710</entity-X-Coordinate>
+		<entity-Y-Coordinate>60</entity-Y-Coordinate>
 		<primary-collapsed>false</primary-collapsed>
 		<relation-collapsed>false</relation-collapsed>
 		<basic-collapsed>false</basic-collapsed>

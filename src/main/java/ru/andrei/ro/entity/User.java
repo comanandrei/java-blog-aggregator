@@ -72,4 +72,12 @@ public class User {
 		this.roles = roles;
 	}
 
+	public List<Blog> getBlogs() {
+		return blogs;
+	}
+
+	public void setBlogs(List<Blog> blogs) {
+		this.blogs = blogs;
+	}
+
 }
