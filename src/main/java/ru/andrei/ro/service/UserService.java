@@ -16,6 +16,7 @@ import ru.andrei.ro.repository.ItemRepository;
 import ru.andrei.ro.repository.UserRepository;
 
 @Service
+@Transactional
 public class UserService {
 
 	@Autowired
@@ -35,7 +36,6 @@ public class UserService {
 		return userRepository.findOne(id);
 	}
 
-	@Transactional
 	public User findOneWithBlogs(int id) {
 		User user = findOne(id);
 		List<Blog> blogs =  blogRepository.findByUser(user);
@@ -45,5 +45,10 @@ public class UserService {
 		}
 		user.setBlogs(blogs);
 		return user;
+	}
+
+	public void save(User user) {
+		userRepository.save(user);
+		
 	}
 }
