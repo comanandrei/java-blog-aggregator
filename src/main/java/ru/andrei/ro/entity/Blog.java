@@ -23,6 +23,7 @@ public class Blog {
 	@Size(min = 1, message = "Invalid URL!")
 	@URL(message = "Invalid URL!")
 	private String url;
+	
 	@Size(min = 1, message = "Name must be at least 1 characters!")
 	private String name;
 
